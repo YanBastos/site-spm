@@ -87,7 +87,7 @@ section {
     user-select: none;
 }
 
-.tab-menu.dragging .tab-btn{
+.tab-menu.dragging .tab-btn {
     pointer-events: none;
 }
 
@@ -124,5 +124,22 @@ section {
 
 
 /* ===== Tap content ===== */
+
+.cards-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-map {
+    background-color: #a1a1a1;
+    border: #641515 solid 3px;
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+}
+
+.card-map h2 {}
+
 
 /* ===== Media queries (max-width: 1050px) ===== */
