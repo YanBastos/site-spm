@@ -47,4 +47,16 @@ let activeDrag = false;
 tabMenu.addEventListener("mousemove", (drag) => {
     if(!activeDrag) return;
     tabMenu.scrollLeft -= drag.movementX;
+    IconVisibility();
+    tabMenu.classList.add("dragging");
+});
+
+
+document.addEventListener("mouseup", () => {
+    activeDrag =  false;
+    tabMenu.classList.remove("dragging");
 })
+
+tabMenu.addEventListener("mousedown", () => {
+    activeDrag = true;
+});
