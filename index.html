@@ -21,7 +21,9 @@
                 <i class="uil uil-angle-right right-btn"></i>
                 <ul class="tab-menu">
                     <li class="tab-btn active">Index</li>
-                    <li class="tab-btn">Index</li>
+                    <a href="tab2.html">
+                        <li class="tab-btn">Index</li>
+                    </a>
                     <li class="tab-btn">Index</li>
                     <li class="tab-btn">Index</li>
                     <li class="tab-btn">Index</li>
@@ -61,10 +63,19 @@
         </div>
 
     </section>
+    <section>
+        <div id="container3D"></div>
+    </section>
 
     <!-- ===== Main Javascript ===== -->
 
+    <script src="particles.js"></script>
+    <script src="3dModel.js"></script>
     <script src="main.js"></script>
+
+    <!-- biblioteca do modelo-viewer -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer"></script>
+
 </body>
 
 </html>
