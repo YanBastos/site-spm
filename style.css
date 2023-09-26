@@ -20,9 +20,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+/* body {
     background: var(--first-color);
-}
+} */
 
 section {
     position: relative;
@@ -126,9 +126,11 @@ section {
 /* ===== Tap content ===== */
 
 .cards-map {
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .card-map {
@@ -150,7 +152,8 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(#434354, #2e2e41);
+    background: radial-gradient(ellipse at top, #1f1f1f, transparent),
+            radial-gradient(ellipse at bottom, #747474, transparent);
 }
 
 /* ===== Media queries (max-width: 1050px) ===== */

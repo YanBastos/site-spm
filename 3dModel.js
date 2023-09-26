@@ -58,12 +58,12 @@ document.getElementById("container3D").appendChild(renderer.domElement);
 camera.position.z = objToRender === "chess" ? 400 : 500;
 
 //Add light to the scene, so we can actually see the 3D model
-const topLight = new THREE.DirectionalLight(0xdd2a2a,3); //(color, intensity)
+const topLight = new THREE.DirectionalLight(0xffffff,5); //(color, intensity)
 topLight.position.set(500, 500, 500) //top-left-ish
 topLight.castShadow = true;
 scene.add(topLight);
 
-const AmbientLight = new THREE.AmbientLight(0xdd2a2a, objToRender === "chess" ? 5 : 1);
+const AmbientLight = new THREE.AmbientLight(0xffffff, objToRender === "chess" ? 5 : 1);
 scene.add(AmbientLight);
 
 //This add control to the camera, so we can rotate / zoom it with the mouse
