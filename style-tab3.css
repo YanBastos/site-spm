@@ -8,3 +8,67 @@ body {
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#container3D {
+    display: flex;
+    justify-content: center;
+}
+
+.info1 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 550px;
+    top: 250px;
+}
+
+.info2 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 500px;
+    top: 350px;
+}
+
+.info3 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 550px;
+    top: 450px;
+}
+
+.info4 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 1150px;
+    top: 250px;
+}
+
+.info5 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 1200px;
+    top: 350px;
+}
+
+.info6 {
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 1150px;
+    top: 450px;
+}
